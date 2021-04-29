@@ -1,0 +1,113 @@
+<sub> for H2O or formatting the 2 into subtext
+<sup> for big number
+
+<big> big text
+<small> small text
+<h1> or <h2> to make heading text bigger/smaller
+
+<br/> for spacing
+<hr/> line
+<a href=""> FOR LINKS (always use https://)
+♥YOU CAN MAKE THE LINK OPEN A new TAB by - target="_blank" within the <a
+<!-- COMMENTS UNSEEN BY WEBSITE-->
+
+<img src="" />
+alt ="" (incase image gets taken down, in the "description of image or OOPS"
+resizing image with width="100" / height="100"
+if you do just one w or h, automatically readjusts full image
+
+<video src=""controls width="300"></video>
+♥THUMBNAIL FOR VIDEO 
+<video src="" poster="img.img" controls width="300"></video>
+can also add autoplay/loop as a command by controls
+♥YOUTUBE VIDEO get embed from link and paste
+<video
+
+♥UNORDERED LIST - <ul> 
+<li> apples
+<li> <a href="link" oranges</a></li>
+</ul>
+♥ORDERED LIST - <ol> </ol>
+TYPE= "A" for alphabetical
+"i" for Roman Numerals
+"1" for numbers
+
+♥TABLE <table> </table>
+<tr></tr> - tablerow
+<td> table data
+<th> table headings
+<table><caption><h2> List of Numbers </h2></caption> for table TITLE
+</table>
+<td COLSPAN="1/2/3">one</td to SPREAD OUT DATA FURTHER ACROSS TABLE
+
+♥JUMP DOWN
+<a href="#footer"
+<footer id="footer">
+
+♥NESTING LINK WITHIN A PARAGRAPH
+<p>Here's a <a href="">link to more photos</a>
+<p>
+  View more <a href="https://freecatphotoapp.com" target="_blank">cat photos</a>
+</p>
+♥CREATE DEAD LINK href="#"
+♥MAKE A PICTURE A LINK
+<a href="#"><img src="https://bit.ly/fcc-running-cats" 
+alt="Three kittens running towards the camera."></a>
+♥ TEXT FIELD & PLACEHOLDER TEXT
+<input type="text">
+<input type="text" placeholder="this is placeholder">
+ - INPUT REQUIRED NOTIF
+<input type="text" placeholder="this is a placeholder" required>
+
+♥ CREATE FORM ELEMENT
+<form action="URL to submit form data"></form>
+<form action="https://freecatphotoapp.com/submit-cat-photo">
+<input type="text" placeholder="cat photo URL"></form>
+♥ ADDING SUBMIT BUTTON TO A FORM
+<button type="submit">TEXT(Submit)</button>
+
+♥RADIO BUTTONS
+<label>
+	<input type-"radio" name="apples-oranges">
+</label>
+EX:
+<label for="apples">
+	<input ID="apples" type="radio" name="apples-oranges">Apple</label
+<label for="oranges>
+	<input ID="oranges" type="radio" name="apples-oranges">Orange</label>
+♥ CHECKBOXES
+<label for="loving"><input id="loving" type="checkbox" name="personality"> Loving</label>
+<label for="curious"><input id="curious" type="checkbox" 
+name="personality">Curious</label>
+
+NOTE: input is child of label and helps automatically associate the checkbox input with
+the label element surrounding it. All related checkbox/radio inputs should have the same
+name attribute. adding for= helps create organization.
+
+♥ VALUE ATTRIBUTE
+When a form gets submitted, data is sent to server and includes entries for options
+selected. Inputs of radio and checkbox report their values from the value attribute
+EX:<label>
+ <input id="indoor" value="indoor" type="radio" name="indoor-outdoor">Indoor
+</label>
+NOTE: Can also make a box checked by default by added checked into input
+♥ DIV
+<div></div>
+A purpose container for other elements (lists, etc.)
+♥ DECLARE THE DOCTYPE OF HTML DOCUMENT
+<!DOCTYPE html> - to tell your browser which version of HTML your page will use.
+REST OF THE CODE MUST BE WRAPPED IN HTML TAGS.
+<!DOCTYPE html>
+<html>
+	<--- HTML HERE---->
+</html>
+♥ HEAD AND BODY
+<head> Should be underneath html/doctype/title and close before body
+<body> should surround anything being displayed to the user and end before the </html>
+CSS _----
+
+STYLE="color:pink;"
+or
+STYLE="background-color:pink;"
+or STYLE="color:pink background-color: black;"
+- Can also use on <body>
