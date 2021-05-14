@@ -5,9 +5,9 @@
 This repository I'll be storing all my projects with Python!
 <br>
 <b>So far, I've created:</b><br>
-♥<br><a href="https://github.com/MamaD33R/Python-Projects/tree/main/Web%20Page%20Generator">Web Page Generator</a><br>
-♥<br><a href="https://github.com/MamaD33R/Python-Projects/blob/main/NiceMeanGame/niceormean.py">Nice Or Mean (Text-based game)</a><br>
-♥<br><a href="https://github.com/MamaD33R/Python-Projects/tree/main/File%20Transfer%20Shutil">File Transfer GUI</a>
+♥ <a href="https://github.com/MamaD33R/Python-Projects/tree/main/Web%20Page%20Generator">Web Page Generator</a><br>
+♥ <a href="https://github.com/MamaD33R/Python-Projects/blob/main/NiceMeanGame/niceormean.py">Nice Or Mean (Text-based game)</a><br>
+♥ <a href="https://github.com/MamaD33R/Python-Projects/tree/main/File%20Transfer%20Shutil">File Transfer GUI</a>
 
   <br>
     <br>
